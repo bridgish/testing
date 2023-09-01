@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="font-apple-system, BlinkMacSystemFont, sans-serif backdrop-blur-sm" style="background-image: url(https://media.discordapp.net/attachments/1146434905887227976/1146434990729613344/backgroundy.png?width=770&height=433); background-repeat: no-repeat; background-size: cover;">
+<html class="font-apple-system, BlinkMacSystemFont, sans-serif bg-opacity-60 font-mono" style="background-image: url(https://media.discordapp.net/attachments/1146434905887227976/1146434990729613344/backgroundy.png?width=770&height=433); background-repeat: no-repeat; background-size: cover;">
 <head>
   <!--Requirement-->
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
   <script src="/src/scripts/main.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1029731354587443280/1106865676263641128/image.png">
+  <link rel="icon" type="image/x-icon" href="/assets/item/favicon.png"">
   <title>(bridge) little shelter</title>
   <!--script from down here-->
   <script>
@@ -37,35 +37,65 @@
 <!--hi chat-->
 <!--hi chat-->
 <body style="overflow: hidden"> <!--uuh im tired-->
-  <div class="grid-rows-3 bg-black backdrop-blur-sm bg-opacity-30 h-8">
-    <div>
-      <p class="text-white text-center justify-center">I ❤️ TailwindCSS</p>
-    </div>
-  </div>
+
 
   <div class="lg:content-auto prose" >
-    <button id="namey" class="mx-28 mt-52 pb-6 rounded-lg text-6xl  text-white duration-100 hover:underline active:scale-110">(bridge)</button>
+    <button id="namey" class="mx-28 mt-40 pb-6 rounded-lg text-6xl text-white duration-100 underline-offs hover:underline active:scale-110" style="text-underline-offset: 12px;">(bridge)</button>
   </div>
+
   
-  <div class="grid-rows-2 flex text-white outline-white" id="infomy">
-    <div class="mt-6 ml-10 bg-indigo-800 text-xl rounded-md text-center bg-opacity-10 bg-blur pt-2 pb-2 outline outline-offset-2 outline-1 pl-1 pr-1 transition-transform hover:scale-105" style="outline-color: #382d9b;">
+  <div class="grid-rows-2 flex text-white outline-white gap-1" id="infomy">
+    <div class="mt-6 ml-6 bg-indigo-800 text-xl rounded-md text-center bg-opacity-10 w-72 bg-blur pt-2 pb-2 outline outline-offset-2 outline-1 pl-1 pr-1 transition-transform hover:scale-105" style="outline-color: #382d9b;">
       <p class="scale-150">I'm (bridge)</p>
       <div style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://media.discordapp.net/stickers/991646171330252820.png?size=160" class="scale-125, mt-1">
+        <img src="https://media.discordapp.net/stickers/1031938879290347540.png?size=160" class="drop-shadow-lg mt-2 rounded-lg">
       </div>
       <p>I hate coding, designing is my favorite.</p>
       
       <p style="font-style: italic; font-size: small;">Graphics design is my passion!</p>
     </div>
-    <div class="mt-6 ml-10 bg-indigo-800 text-xl rounded-md text-center bg-opacity-10 bg-blur pt-2 pb-2 outline outline-offset-2 outline-1 pl-1 pr-1 transition-transform hover:scale-105" style="outline-color: #382d9b;">
+    <div class="mt-6 ml-6 bg-indigo-800 text-xl rounded-md text-center bg-opacity-10 bg-blur pt-2 pb-2 outline outline-offset-2 outline-1 pl-1 pr-1 transition-transform hover:scale-105" style="outline-color: #382d9b; width: 45%;">
       <p class="scale-150">Why?</p>
       <p class="mt-3">Because I like designing more than coding! (lul)</p>
+      <p class="mt-3">I also like music as well (wow, who would have thought)</p>
       <p style="font-style: italic; font-size: small">pwease gib motivation!</p>
+      
       <div style="display: flex; align-items: center; justify-content: center;">
-        <img src="https://media.discordapp.net/attachments/1146434905887227976/1146700705067962439/image.png" class="scale-125, mt-1">
+        <img src="https://media.discordapp.net/attachments/1146434905887227976/1146700705067962439/image.png" class=" drop-shadow-lg mt-1 rounded-md">
       </div>
       <p class="text-center scale-50 italic">Me hate about coding</p>
     </div>
+    <div class="mt-6 ml-6 bg-indigo-800 text-base pl-5 pr-5 rounded-md  bg-opacity-10 bg-blur pt-2 pb-2 outline outline-offset-2 outline-1 transition-transform  hover:scale-105" style="outline-color: #382d9b; width: 25%;">
+      <p class="scale-150 mt-2 text-center">Parent's goto blame on<br>✨internet addiction✨</p>
+      <div class="grid grid-cols-2 gap-5 mt-8">
+        <a href="https://github.com/closebridge">
+          <img src="./assets/item/github-mark-white.svg" class="w-32 h-32 rounded-lg">
+        </a>
+        <a href="https://twitter.com/catrapidtal">
+          <img src="./assets/item/twitteNO.png" class="w-32 h-32 rounded-lg">
+        </a>
+      </div>
+      <p style="font-style: italic; font-size: small; margin-top: 18px;">*i dont use twitter</p>
+      <p style="font-style: italic; font-size: small; margin-top: 5px">**discord sux!</p>
+    </div>
   </div>
+
+  <div id="footie" class="flex grid-rows-2 grid-cols-none w-full h-6 bg-blue-900 outline outline-1 outline-indigo-800 shadow bg-opacity-70 fixed bottom-0 footer text-white justify-center">
+      <ul class="flex flex-wrap items-center gap-2">
+        <li>
+          <p>(bridge)</p>
+        </li>
+        <li class="ml-6 mr-6">
+          X
+        </li>
+        <li>
+          <a href="https://tailwindcss.com" class="duration-100 hover:outline-light-50">
+            <img src="./assets/item/tailwindcss-logotype-white.svg" alt="css" class="w-32 h-5 rounded-xl">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 </body>
 </html>
